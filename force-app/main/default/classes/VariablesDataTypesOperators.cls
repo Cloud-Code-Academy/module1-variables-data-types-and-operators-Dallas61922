@@ -34,7 +34,7 @@ public with sharing class VariablesDataTypesOperators {
     public static Integer addition(Integer a, Integer b){
         Boolean aIsOk = (a != null);
         Boolean bIsOk = (b != null);
-            If (aIsOk && bIsOk) {
+            If (a != null && b != null) {
                 return (a + b);
             } else {
                 return null;
